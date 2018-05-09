@@ -69,14 +69,12 @@ To see the grid search results using the UCF-11 dataset, click [here](grid_searc
 When citing our work in academic papers, please use this BibTeX entry:
 
 ```
-@inproceedings{MonteiroEtAl2018,
-  author    = {Monteiro, Juarez and Granada, Roger and Aires, Jo{\~a}o P and Barros, Rodrigo C},
-  title     = {Evaluating the Feasibility of Deep Learning for Action Recognition in Small Datasets},
-  booktitle = {Proceedings of the 2018 International Joint Conference on Neural Networks},
-  series    = {IJCNN'18},
-  location  = {Rio de Janeiro, Brazil},
-  year      = {2018},
-  publisher = {IEEE}
+@inproceedings{aires2017temporalkdmile,
+  title={Improving Activity Recognition using Temporal Regions},
+  author={Aires, Joao Paulo and Monteiro, Juarez and Granada, Roger and Meneguzzi, Felipe and Barros, Rodrigo C},
+  booktitle={Proceedings of the 5th Symposium on Knowledge Discovery, Mining and Learning (KDMILE)},
+  year={2017},
+  organization={SBC}
 }
 ```
 
