@@ -17,14 +17,14 @@ An approach for action recognition in videos involves obtaining the temporal inf
 Since an action consists of a sequence of movements, obtaining the temporal information may help systems to better understand which action is being performed.
 In this work, we propose an approach to obtain temporal information from a video by dividing its frames into regions.
 Thus, instead of classifying an action using only the information of each frame, we extract and merge the information from several regions of the video in order to obtain its temporal aspect.
-The [Figure](#image) bellow illustrates the pipeline of our architecture, which is divided into four phases: 
+The [Figure](#image) bellow illustrates the pipeline of our architecture, which is divided into four phases:
 
 1. Pre-processing
 2. CNNs
 3. Regions Division
 4. Classification
 
-[image]: images/pipeline.png "Pipeline of our architecture for action recognition using multiple regions"
+[image]: pipeline.png "Pipeline of our architecture for action recognition using multiple regions"
 ![Alt text][image]
 
 For more details about the phases you can check our paper at [KDMiLe proceedings](http://www.facom.ufu.br/~kdmile/proceedings/anais-kdmile-2017.pdf).
@@ -51,7 +51,7 @@ Since classification accuracy takes into account only the proportion of correct 
 Although other factors may change results, classes with a larger number of examples tend to achieve better results since the network has more examples to learn the variability of the features.
 By analyzing both datasets, we notice that they are indeed unbalanced, *i.e.*, classes are not equally distributed over frames.
 Hence, we decided to calculate precision, recall, and F-measure to make a better evaluation of the unbalanced dataset.
-We calculate scores considering all classes presented in the test set as explained in Section Datasets presented in our paper. 
+We calculate scores considering all classes presented in the test set as explained in Section Datasets presented in our paper.
 We keep the results separated by dataset as follows:
 
 ### DogCentric Dataset
@@ -59,7 +59,7 @@ We keep the results separated by dataset as follows:
 To see the grid search results using the DogCentric dataset, click [here](grid_search_dog.md).
 
 
-### UCF-11 
+### UCF-11
 
 To see the grid search results using the UCF-11 dataset, click [here](grid_search_ucf11.md).
 
@@ -85,4 +85,3 @@ When citing our work in academic papers, please use this BibTeX entry:
 
 [1] Iwashita, Yumi and Takamine, Asamichi and Kurazume, Ryo and Ryoo, Michael S. [First-Person Animal Activity Recognition from Egocentric Videos](http://dx.doi.org/10.1109/ICPR.2014.739). Proceedings of the 22nd International Conference on Pattern Recognition (ICPR'14), Stockholm, Sweden, pp. 4310-4315, IEEE, 2014.  
 [2] Liu, Jingen and Luo, Jiebo and Shah, Mubarak. [Recognizing Realistic Actions from Videos "in the Wild"](https://doi.org/10.1109/CVPR.2009.5206744). Proceedings of the 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'09), Miami, FL, USA, pp. 1996-2003, IEEE, 2009.  
-
