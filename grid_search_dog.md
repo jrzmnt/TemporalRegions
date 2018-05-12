@@ -41,5 +41,5 @@ In order to optimize parameters in the SVM classifier, we follow Hsu *et al.* [[
 ## References
 
 [1] Wang, Heng and Kläser, Alexander and Schmid, Cordelia and Liu, Cheng-Lin. [Action Recognition by Dense Trajectories](http://dx.doi.org/10.1109/CVPR.2011.5995407). In Proceedings of the 2011 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'11), Providence, RI, USA, pp. 3169-3176, IEEE, 2011.  
-[2] Hsu, Chih-Wei and Chang, Chih-Chung and Lin, Chih-Jen. [A Practical Guide to Support Vector Classification](http://www.csie.ntu.edu.tw/~cjlin/papers.html). Techinal Report of the Department of Computer Science, National Taiwan University, July 2003.
+[2] Hsu, Chih-Wei and Chang, Chih-Chung and Lin, Chih-Jen. [A Practical Guide to Support Vector Classification](http://www.csie.ntu.edu.tw/~cjlin/papers.html). Technical Report of the Department of Computer Science, National Taiwan University, July 2003.
 
