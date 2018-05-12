@@ -69,12 +69,17 @@ To see the grid search results using the UCF-11 dataset, click [here](grid_searc
 When citing our work in academic papers, please use this BibTeX entry:
 
 ```
-@inproceedings{aires2017temporalkdmile,
-  title={Improving Activity Recognition using Temporal Regions},
-  author={Aires, Joao Paulo and Monteiro, Juarez and Granada, Roger and Meneguzzi, Felipe and Barros, Rodrigo C},
-  booktitle={Proceedings of the 5th Symposium on Knowledge Discovery, Mining and Learning (KDMILE)},
-  year={2017},
-  organization={SBC}
+@inproceedings{AiresEtAl2017kdmile,
+  author    = {Aires, Jo\~{a}o Paulo and Monteiro, Juarez and Granada, Roger and Meneguzzi, Felipe and Barros, Rodrigo C},
+  title     = {Improving Activity Recognition using Temporal Regions},
+  booktitle = {Proceedings of the 5th Symposium on Knowledge Discovery, Mining and Learning},
+  series    = {KDMiLe 2017},
+  location  = {Uberl\^{a}ndia, MG, Brazil},
+  pages     = {89--96},
+  issn      = {2318-1060},
+  month     = {October},
+  year      = {2017},
+  organization = {SBC}
 }
 ```
 
